@@ -1,0 +1,30 @@
+html { font-size: 100%;
+  line-height: 1;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body { font-family: 'Lora', serif; color: #333; }
+h1, h2, h3 { font-weight: 100; }
+section { width: 30em;
+  margin: 0 auto;
+}
+.article-p { font-size: 1.063em; /* 17px / 16px = 1.063em */
+  line-height: 1.25; /* 20px / 16px = 1.25em */
+}
+/* Typographic Scale 1.063 x 1.25 = 1.32875 rounded to 1.3 */
+h1 { font-size: 3.189em; /* 3 x 1.063 = 3.189 */
+  line-height: 0.7; /* 2.275 / 3.189 = 0.4*/
+}
+h2 {
+  font-size: 2.126em; /* 2 x 1.063 = 2.126*/
+  line-height: 0.6; /* 1.3 / 2.126 = 0.6 */
+}
+.article-p:nth-of-type(1):first-letter {
+  float: left;
+  color: #47a6ff;
+  padding: 0 6px 0 4px;
+  font-size: 109px;
+  line-height: 82px;
+}
